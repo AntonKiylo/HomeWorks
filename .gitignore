@@ -17,3 +17,8 @@
 .nfs*
 
 # End of https://www.gitignore.io/api/linux
+
+# Intellij
+**/.idea/
+*.iml
+*.iws
