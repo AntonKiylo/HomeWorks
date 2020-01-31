@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid;
+}
+
+caption {
+    font-style: italic;
+}
+
+th {
+    text-align: center;
+    padding: 3px;
+    width: 108px;
+}
+
+th:first-child {
+    width: 140px;
+}
