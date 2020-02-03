@@ -1,0 +1,55 @@
+tr:first-child td:first-child {
+    background-color: brown;
+}
+
+tr:first-child td:last-child {
+    background-color: cadetblue;
+}
+
+tr:nth-child(2) td:first-child {
+    background-color: chartreuse;
+}
+
+tr:nth-child(2) td:last-child {
+    background-color: coral;
+}
+
+tr:last-child td {
+    background-color: crimson;
+}
+
+div li:first-child a {
+    background-color: red;
+}
+
+div li:nth-child(2) a {
+    background-color: green;
+}
+
+div li:nth-child(3) a {
+    background-color: blue;
+}
+
+div li:last-child a {
+    background-color: yellow;
+}
+
+p:first-of-type strong a {
+    background-color: aqua;
+}
+
+p:first-of-type i a {
+    background-color: grey;
+}
+
+ul:nth-child(3) li:first-child a{
+    background-color: indigo;
+}
+
+ul:nth-child(3) li:nth-child(2) a{
+    background-color: orange;
+}
+
+ul:nth-child(3) li:last-child a{
+    background-color: chocolate;
+}

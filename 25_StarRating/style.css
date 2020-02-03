@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li {
+    background-image: url('images/star0.png');
+    float: right;
+    width: 75px;
+    height: 78px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-image: url('images/star1.png');
+}
+
+li:first-child:hover ~ li {
+    background-image: url('images/star1.png');
+}
+
+li:nth-child(2):hover ~ li {
+    background-image: url('images/star1.png');
+}
+
+li:nth-child(3):hover ~ li {
+    background-image: url('images/star1.png');
+}
+
+li:nth-child(4):hover ~ li {
+    background-image: url('images/star1.png');
+}
+
+li:last-child:hover ~ li {
+    background-image: url('images/star1.png');
+}
