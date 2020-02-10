@@ -1,0 +1,23 @@
+.bold-big {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.green {
+    color: green;
+}
+
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
+
+.italic-blue {
+    font-style: italic;
+    color: blue;
+}
+
+a[href^="https://"] {
+    background: url("../image/extref.png") no-repeat left;
+    padding-left: 12px;
+}

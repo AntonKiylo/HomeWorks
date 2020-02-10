@@ -16,3 +16,7 @@
     font-style: italic;
     color: blue;
 }
+
+a[href^="https://"]::before {
+    content: url("../image/extref.png") ' ';
+}

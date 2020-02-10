@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+/********************** First way **********************/
+.firstWay a {
+    padding: 5px 10px 10px;
+    border-right: 3px solid red;
+}
+
+.firstWay a:last-child {
+    border: none;
+}
+
+/********************** Second way **********************/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.secondWay ul {
+    list-style: none;
+}
+
+.secondWay li {
+    float: left;
+    padding: 5px 10px 10px;
+    background: url("image/redLine.png") no-repeat right;
+}
+
+.secondWay li:last-child {
+    background: none;
+}
+
+/********************** Third way **********************/
+.thirdWay div {
+    display: inline-block;
+    padding: 5px 10px 10px;
+    border-right: 3px solid red;
+}
+
+.thirdWay div:last-child {
+    border: none;
+}
+
+/********************** Fourth way **********************/
+.fourthWay {
+    display: flex;
+    align-items: center;
+}
+
+.fourthWay div {
+    padding: 5px 10px 10px;
+}
+
+/********************** Fifth way **********************/
+.fifthWay {
+    display: grid;
+    grid-template-columns: repeat(5, 97px);
+    text-align: center;
+}
+
+.fifthWay a {
+    padding: 5px 10px 10px;
+    border-right: 3px solid red;
+}
+
+.fifthWay a:last-child {
+    border: none;
+}

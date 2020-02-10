@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.verticalLine {
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.horizontalLine {
+    margin: 20px auto 0 auto;
+    width: 50px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.button {
+    width: 192px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    color: #8e8e8e;
+}
+
+.button:hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+/*********************** Header ***********************/
+.header {
+    height: 100px;
+}
+
+.header .verticalLine {
+    height: 35px;
+    margin-left: 86px;
+}
+
+.header h2 {
+    float: left;
+}
+
+.header ul {
+    float: right;
+}
+
+.header li {
+    padding-right: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.header a:hover {
+    color: black;
+}
+
+/*********************** Description block ***********************/
+.description {
+    background: url("images/Slider_Image.jpg") bottom;
+    background-size: cover;
+    color: white;
+    height: 700px;
+}
+
+.description h1 {
+    padding-top: 213px;
+}
+
+.description p:first-of-type {
+    width: 626px;
+    margin-top: 49px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description p:last-of-type {
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+    margin-top: 218px;
+}
+
+.description p:last-of-type span:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.description .button {
+    margin-top: 55px;
+}
+
+/*********************** Welcome block ***********************/
+.welcome {
+    text-align: center;
+    height: 752px;
+}
+
+.welcome h2 {
+    margin-top: 30px;
+}
+
+.welcome p {
+    margin-top: 49px;
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+}
+
+.welcome ul {
+    margin-top: 132px;
+}
+
+.welcome ul li {
+    width: 255px;
+    height: 291px;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+    padding: 0 17px;
+}
+
+.welcome ul li:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+.welcome ul li:hover h4 {
+    color: black;
+}
+
+.welcome ul li:nth-child(4) {
+    margin: 0;
+}
+
+.welcome ul li p {
+    margin-top: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+    line-height: 20px;
+    width: 220px;
+}
+
+.welcome ul li h4 {
+    margin-top: 41px;
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+}
+
+.welcome ul li h3 {
+    margin-top: 30px;
+}
+
+.welcome ul li .icon {
+    width: 80px;
+    height: 61px;
+    display: inline-block;
+    margin-top: -22px;
+}
+
+/*********************** Work block ***********************/
+.recentWork {
+    height: 1176px;
+    background-color: #f8f8f8;
+    background-size: cover;
+    text-align: center;
+}
+
+.recentWork h2 {
+    margin-top: 30px;
+}
+
+.recentWork ul:first-of-type {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.recentWork ul:first-of-type li {
+    float: left;
+    padding: 19px 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+}
+
+.recentWork ul:first-of-type li:hover {
+    border: 1px solid #333;
+    color: black;
+    padding: 18px 11px;
+    cursor: pointer;
+}
+
+.recentWork ul:last-of-type {
+    margin-top: 10px;
+}
+
+.recentWork ul:last-of-type li {
+    float: left;
+    margin: 30px 30px 0 0;
+}
+
+.recentWork ul:last-of-type li:nth-child(3), ul:last-of-type li:last-child {
+    margin-right: 0;
+}
+
+/*********************** Choose block ***********************/
+.choose {
+    height: 672px;
+}
+
+.choose h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.choose ul {
+    margin-top: 65px;
+}
+
+.choose ul li {
+    width: 350px;
+    height: 162px;
+    margin: 41px 30px 0 0;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.choose ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+.choose ul li:nth-child(6) {
+    margin-right: 0;
+}
+
+.choose ul img {
+    float: left;
+}
+
+.choose ul h3 {
+    line-height: 3;
+    padding-left: 72px;
+    color: #8e8e8e;
+}
+.choose ul li:hover h3 {
+    color: black;
+}
+
+.choose ul p {
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+    margin-top: 39px;
+}
+
+/*********************** Workers block ***********************/
+.workers {
+    height: 642px;
+    background: url("images/bottomBackground.jpg") top;
+    background-size: cover;
+    text-align: center;
+}
+
+.workers h2 {
+    margin-top: 30px;
+}
+
+.workers ul {
+    margin-top: 100px;
+}
+
+.workers ul li {
+    margin-right: 30px;
+}
+
+.workers ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+/*********************** Pricing block ***********************/
+.pricing {
+    height: 738px;
+}
+
+.pricing h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pricing ul {
+    margin-top: 108px;
+    font-family: 'Roboto', sans-serif;
+    color: #8e8e8e;
+}
+
+.pricing ul li {
+    width: 255px;
+    height: 428px;
+    border: 1px solid #cccccc;
+    margin-right: 30px;
+}
+
+.pricing ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+.pricing ul li:hover {
+    border-color: black;
+    cursor: pointer;
+}
+
+.pricing ul li p {
+    margin: 49px 0 0 32px;
+}
+
+.pricing ul li span {
+    font-weight: 600;
+    font-size: x-large;
+    color: black;
+}
+
+.pricing ul table {
+    margin: 39px 0 0 30px;
+    border-spacing: 0 12px;
+}
+
+.pricing .button {
+    margin: 40px auto 0;
+}
+
+.pricing ul li div:first-child {
+    background-color: white;
+    padding: 0 8px;
+    width: fit-content;
+    margin: -10px 0 0 16px;
+    color: black;
+}
+
+/*********************** Buy block ***********************/
+.buy {
+    height: 100px;
+    background-color: #f8f8f8;
+    background-size: cover;
+}
+
+.buy .container > h4 {
+    float: left;
+    margin-top: 42px;
+}
+
+.buy .button {
+    float: right;
+    margin-top: 25px;
+}
+
+/*********************** Contact block ***********************/
+.contact {
+    height: 696px;
+    padding-top: 99px;
+}
+
+.contact .form {
+    width: 1110px;
+    height: 497px;
+    padding: 0 190px;
+    border: 1px solid #cccccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact .form .title {
+    background-color: #fff;
+    padding: 0 15px;
+    width: fit-content;
+    margin: -20px auto 0;
+}
+
+.contact .form .name {
+    border-bottom: 2px solid #cccccc;
+    width: 350px;
+    padding: 0 30px 15px 30px;
+    margin: 66px 27px 0 0;
+    float: left;
+}
+
+.contact .form .name:nth-child(2) {
+    margin-right: 0;
+}
+
+.contact .form div:nth-child(3) {
+    margin-top: 48px;
+    border-bottom: 2px solid #cccccc;
+    padding: 15px 30px;
+}
+
+.contact .form div:nth-child(4) {
+    padding: 67px 30px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.contact .form .button {
+    margin: 34px auto 0;
+}
+
+/*********************** Agency block ***********************/
+.agency {
+    height: 358px;
+    background: url("images/FooterBackground.jpg") top;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.agency h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.agency p {
+    width: 340px;
+    color: white;
+    margin: 40px auto 0 auto;
+}
+
+.agency ul {
+    margin-top: 37px;
+    display: inline-block;
+}
+
+.agency ul li {
+    margin-right: 15px;
+}
+
+.agency ul li:nth-child(6) {
+    margin: 0;
+}
+
+/*********************** Footer block ***********************/
+.footer {
+    height: 100px;
+    border-top: 1px solid #cccccc;
+    background: url("images/FooterBackground.jpg") 0 80%;
+    background-size: cover;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.footer p {
+    float: left;
+}
+
+.footer ul {
+    float: right;
+}
+
+.footer li {
+    margin-right: 38px;
+}
+
+.footer .footer li:last-child {
+    margin-right: 0;
+}
