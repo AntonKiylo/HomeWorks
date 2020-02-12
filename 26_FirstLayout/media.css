@@ -1,0 +1,248 @@
+@import "style.css";
+
+@media all and (max-width: 1150px) {
+    .container {
+        width: 800px;
+    }
+
+    /***************** Welcome *****************/
+    .welcome ul li:nth-child(2) {
+        float: right;
+        margin-right: 0;
+    }
+    .welcome ul li:last-child {
+        float: right;
+    }
+
+    /***************** Work *****************/
+    .recentWork .container ul:last-of-type li {
+        margin: 20px;
+    }
+    .recentWork ul:last-of-type li:nth-child(even) {
+        float: right;
+    }
+
+    /***************** Choose *****************/
+    .choose .container ul li {
+        margin: 20px;
+    }
+    .choose ul li:nth-child(even) {
+        float: right;
+    }
+
+    /***************** Workers *****************/
+    .workers .container ul li {
+        margin-bottom: 30px;
+    }
+    .workers ul li:nth-child(even) {
+        float: right;
+        margin-right: 0;
+    }
+
+    /***************** Pricing *****************/
+    .pricing .container ul li {
+        margin-bottom: 30px;
+    }
+    .pricing ul li:nth-child(even) {
+        float: right;
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .container {
+        width: 450px;
+    }
+
+    /***************** Header *****************/
+    .header .verticalLine {
+        margin: 0 auto;
+    }
+    .header h2 {
+        text-align: center;
+        float: none;
+    }
+    .header ul {
+        margin-top: 12px;
+    }
+
+    /***************** Description *****************/
+    .description {
+        text-align: center;
+    }
+    .description p:first-of-type {
+        width: fit-content;
+    }
+    .description .button {
+        display: inline-block;
+    }
+
+    /***************** Welcome *****************/
+    .welcome .container ul li {
+        float: none;
+        display: inline-block;
+        margin: 0 0 44px;
+    }
+    /***************** Work *****************/
+    .recentWork .container ul:first-of-type li {
+        float: none;
+    }
+    .recentWork .container ul:last-of-type li {
+        margin: 0 0 20px;
+        display: inline-block;
+        float: none;
+    }
+
+    /***************** Choose *****************/
+    .choose .container ul li {
+        margin: 20px auto;
+        float: none;
+    }
+
+    /***************** Workers *****************/
+    .workers .container ul li {
+        margin: 0 0 30px;
+        float: none;
+    }
+
+    /***************** Pricing *****************/
+    .pricing .container ul li {
+        margin: 0 auto 30px;
+        float: none;
+    }
+
+    /***************** Buy *****************/
+    .buy {
+        text-align: center;
+        padding-top: 1px;
+    }
+    .buy .button {
+        display: inline-block;
+    }
+    .buy .container h4, .buy .button {
+        float: none;
+    }
+
+    /***************** Contact *****************/
+    .contact .form {
+        padding: 0 35px 68px;
+    }
+
+    /***************** Footer *****************/
+    .agency .footer {
+        text-align: center;
+    }
+    .agency .footer p {
+        float: none;
+    }
+    .agency .footer ul {
+        margin-top: 15px;
+        float: none;
+    }
+    .agency .footer ul li {
+        float: none;
+        margin: 0 0 8px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .container {
+        width: 375px;
+    }
+
+    /***************** Header *****************/
+    .header .verticalLine {
+        margin: 0 auto;
+    }
+    .header h2 {
+        text-align: center;
+        float: none;
+    }
+    .header ul {
+        margin-top: 12px;
+        float: none;
+        text-align: center;
+    }
+    .header ul li {
+        float: none;
+        margin-bottom: 8px;
+    }
+
+    /***************** Description *****************/
+    .description {
+        text-align: center;
+    }
+    .description p:first-of-type {
+        width: fit-content;
+    }
+    .description .button {
+        display: inline-block;
+    }
+
+    /***************** Welcome *****************/
+    .welcome .container ul li {
+        float: none;
+        display: inline-block;
+        margin: 0 0 44px;
+    }
+
+    /***************** Work *****************/
+    .recentWork .container ul:first-of-type li {
+        float: none;
+    }
+    .recentWork .container ul:last-of-type li {
+        margin: 0 0 20px;
+        display: inline-block;
+        float: none;
+    }
+
+    /***************** Choose *****************/
+    .choose .container ul li {
+        margin: 20px auto;
+        float: none;
+    }
+
+    /***************** Workers *****************/
+    .workers .container ul li {
+        margin: 0 0 30px;
+        float: none;
+    }
+
+    /***************** Pricing *****************/
+    .pricing .container ul li {
+        margin: 0 auto 30px;
+        float: none;
+    }
+
+    /***************** Buy *****************/
+    .buy {
+        text-align: center;
+    }
+    .buy .button {
+        display: inline-block;
+    }
+    .buy .container h4, .buy .button {
+        float: none;
+    }
+
+    /***************** Contact *****************/
+    .contact .form {
+        padding: 0 0 33px;
+    }
+
+    /***************** Footer *****************/
+    .agency .footer {
+        text-align: center;
+    }
+    .agency .footer p {
+        float: none;
+    }
+    .agency .footer ul {
+        margin-top: 15px;
+        float: none;
+    }
+    .agency .footer ul li {
+        float: none;
+        margin: 0 0 8px;
+    }
+}

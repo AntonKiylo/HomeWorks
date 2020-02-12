@@ -57,7 +57,7 @@ li {
 
 /*********************** Header ***********************/
 .header {
-    height: 100px;
+    padding-bottom: 32px;
 }
 
 .header .verticalLine {
@@ -91,7 +91,6 @@ li {
     background: url("images/Slider_Image.jpg") bottom;
     background-size: cover;
     color: white;
-    height: 700px;
 }
 
 .description h1 {
@@ -122,7 +121,7 @@ li {
 /*********************** Welcome block ***********************/
 .welcome {
     text-align: center;
-    height: 752px;
+    padding-bottom: 42px;
 }
 
 .welcome h2 {
@@ -143,7 +142,7 @@ li {
     width: 255px;
     height: 291px;
     border: 1px solid #ccc;
-    margin-right: 30px;
+    margin: 0 30px 44px 0;
     padding: 0 17px;
 }
 
@@ -187,7 +186,7 @@ li {
 
 /*********************** Work block ***********************/
 .recentWork {
-    height: 1176px;
+    padding-bottom: 76px;
     background-color: #f8f8f8;
     background-size: cover;
     text-align: center;
@@ -231,7 +230,7 @@ li {
 
 /*********************** Choose block ***********************/
 .choose {
-    height: 672px;
+    padding-bottom: 86px;
 }
 
 .choose h2 {
@@ -280,7 +279,7 @@ li {
 
 /*********************** Workers block ***********************/
 .workers {
-    height: 642px;
+    padding-bottom: 86px;
     background: url("images/bottomBackground.jpg") top;
     background-size: cover;
     text-align: center;
@@ -304,7 +303,7 @@ li {
 
 /*********************** Pricing block ***********************/
 .pricing {
-    height: 738px;
+    padding-bottom: 86px;
 }
 
 .pricing h2 {
@@ -363,7 +362,7 @@ li {
 
 /*********************** Buy block ***********************/
 .buy {
-    height: 100px;
+    padding-bottom: 24px;
     background-color: #f8f8f8;
     background-size: cover;
 }
@@ -380,14 +379,12 @@ li {
 
 /*********************** Contact block ***********************/
 .contact {
-    height: 696px;
-    padding-top: 99px;
+    padding: 99px 0 72px;
 }
 
 .contact .form {
-    width: 1110px;
-    height: 497px;
-    padding: 0 190px;
+    width: fit-content;
+    padding: 0 190px 68px;
     border: 1px solid #cccccc;
     font-family: 'Roboto', sans-serif;
 }
@@ -428,7 +425,6 @@ li {
 
 /*********************** Agency block ***********************/
 .agency {
-    height: 358px;
     background: url("images/FooterBackground.jpg") top;
     background-size: cover;
     text-align: center;
@@ -439,33 +435,30 @@ li {
     font-family: 'Lato', sans-serif;
 }
 
-.agency p {
+.agency p:nth-child(3) {
     width: 340px;
     color: white;
     margin: 40px auto 0 auto;
 }
 
-.agency ul {
+.agency .social {
     margin-top: 37px;
     display: inline-block;
 }
 
-.agency ul li {
+.agency .social li {
     margin-right: 15px;
 }
 
-.agency ul li:nth-child(6) {
+.agency .social li:nth-child(6) {
     margin: 0;
 }
 
-/*********************** Footer block ***********************/
 .footer {
-    height: 100px;
+    margin-top: 86px;
     border-top: 1px solid #cccccc;
-    background: url("images/FooterBackground.jpg") 0 80%;
-    background-size: cover;
     color: #fff;
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 .footer p {
