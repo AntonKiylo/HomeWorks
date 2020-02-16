@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+}
+
+.wrapper div img:last-child {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.wrapper > img {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.wrapper > div:hover + img {
+    z-index: -1;
+}

@@ -1,0 +1,22 @@
+@import "style.css";
+
+@media all and (max-width: 770px) {
+    div .title {
+        display: block;
+    }
+    form > div:nth-child(4) .title {
+        display: inline-block;
+    }
+    div .articleTitle {
+        float: none;
+    }
+    div .articleInput {
+        margin-left: 0;
+    }
+    div .radio {
+        display: block;
+    }
+    select {
+        width: 100%;
+    }
+}

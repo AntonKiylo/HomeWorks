@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Maket form</title>
+</head>
+<body>
+<p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+<form method="post" action="http://fe.it-academy.by/TestForm.php">
+    <div class="clearfix">
+        <label class="title articleTitle" for="article">Название статьи:</label>
+        <div class="articleInput"><input type="text" name="title" id="article"></div>
+    </div>
+    <div>
+        <label class="title" for="rubric">Рубрика:</label>
+        <select name="rubric" id="rubric">
+            <option value="programming">программирование</option>
+            <option value="design">дизайн</option>
+        </select>
+    </div>
+    <div>
+        <label class="title">Публикация:</label>
+        <div class="radio"><input type="radio" name="publication" value="site" id="site"><label for="site">на сайте</label></div>
+        <div class="radio"><input type="radio" name="publication" value="magazine" id="magazine"><label for="magazine">в журнале</label></div>
+        <div class="radio"><input type="radio" name="publication" value="siteAndMagazine" id="siteAndMagazine"><label for="siteAndMagazine">на сайте и в журнале</label></div>
+    </div>
+    <div>
+        <label class="title" for="comments">Разрешить комментарии:</label>
+        <input type="checkbox" name="allowComments" id="comments" value="yes">
+    </div>
+    <div>
+        <label for="text">Текст статьи:</label>
+        <textarea name="textArea" id="text"></textarea>
+    </div>
+    <input type="submit" value="Опубликовать">
+</form>
+</body>
+</html>
