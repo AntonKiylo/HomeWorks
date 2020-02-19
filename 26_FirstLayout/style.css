@@ -229,16 +229,16 @@ li {
     margin-right: 0;
 }
 
-.test {
+.portfolioFront {
     width: 350px;
     height: 377px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background: url("images/whiteCircle.png") no-repeat center 120px  rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     opacity: 0;
 }
 
-.testFooter {
+.portfolioFooter {
     width: 350px;
     height: 80px;
     position: absolute;
@@ -246,7 +246,16 @@ li {
     bottom: 0;
 }
 
-.test:hover {
+.portfolioFooter h3, .portfolioFooter h4 {
+    text-align: left;
+    margin: 12px 0 0 22px;
+}
+
+.portfolioFooter h4 {
+    color: #8e8e8e;
+}
+
+.portfolioFront:hover {
     opacity: 1;
     cursor: pointer;
 }
@@ -318,10 +327,25 @@ li {
 
 .workers ul li {
     margin-right: 30px;
+    position: relative;
 }
 
 .workers ul li:nth-child(4) {
     margin-right: 0;
+}
+
+.workerSocial {
+    width: 255px;
+    height: 340px;
+    background: url("images/IconWorkers.png") no-repeat 0 50px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.workerSocial:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 /*********************** Pricing block ***********************/

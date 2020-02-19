@@ -1,0 +1,148 @@
+#checkBoxStylize label {
+    cursor: pointer;
+}
+
+#checkBoxStylize .checkBox {
+    visibility: hidden;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+#checkBoxStylize .checkBox::before {
+    visibility: visible;
+    content: url("images/unSelected_checkbox.png");
+    position: relative;
+    bottom: 7px;
+    right: 14px;
+}
+
+#checkBoxStylize .checkBox:checked::before {
+    content: url("images/selected_checkbox.png");
+}
+
+#checkBoxStylize .checkBox:checked + span {
+    color: green;
+}
+
+#checkBoxStylize .switchCheckBox {
+    visibility: hidden;
+    cursor: pointer;
+    margin-left: 26px;
+}
+
+#checkBoxStylize .switchCheckBox::before {
+    visibility: visible;
+    content: url("images/switchInactive.png");
+    position: relative;
+    bottom: 8px;
+    right: 26px;
+}
+
+#checkBoxStylize .switchCheckBox:checked::before {
+    content: url("images/switchActive.png");
+}
+
+#checkBoxStylize .switchCheckBox:checked + span {
+    color: green;
+}
+
+/********************************************************/
+#checkBoxForDisplaying input {
+    visibility: hidden;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#checkBoxForDisplaying input::before {
+    visibility: visible;
+    content: url("images/icon-arrow-right.png");
+    position: relative;
+    bottom: 8px;
+    right: 16px;
+}
+
+#checkBoxForDisplaying input:checked::before {
+    content: url("images/arrow_drop_down.png");
+}
+
+#checkBoxForDisplaying label {
+    color: green;
+}
+
+#checkBoxForDisplaying input + label ~ div {
+    display: none;
+}
+
+#checkBoxForDisplaying input:checked + label ~ div {
+    display: block;
+}
+
+/********************************************************/
+#radioButton input {
+    display: none;
+}
+
+#radioButton input + label + div {
+    display: none;
+}
+
+#radioButton input:checked + label + div {
+    display: block;
+}
+
+#radioButton input + label {
+    cursor: pointer;
+    color: red;
+}
+
+#radioButton input:checked + label {
+    display: none;
+}
+
+#radioButton input + label + div + input + label {
+    display: none;
+    cursor: pointer;
+    color: red;
+}
+
+#radioButton input:checked + label + div + input + label {
+    display: block;
+}
+
+/********************************************************/
+#radioButtonTabs {
+    position: relative;
+    display: flex;
+}
+
+#radioButtonTabs input {
+    display: none;
+}
+
+#radioButtonTabs input + label {
+    background-color: lightgray;
+    margin-right: 5px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px 10px 0 0;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+#radioButtonTabs input:checked + label {
+    background-color: lightblue;
+    cursor: default;
+}
+
+#radioButtonTabs input + label + div {
+    display: none;
+}
+
+#radioButtonTabs input:checked + label + div {
+    display: block;
+    position: absolute;
+    top: 33px;
+    min-width: 500px;
+    background-color: lightblue;
+    border-radius: 0 10px 10px 10px;
+    padding: 10px;
+}
