@@ -1,0 +1,120 @@
+@import "style.css";
+
+@mixin width($width){
+  width: $width;
+}
+
+$media: all;
+$screenWidth: max-width;
+$value: 1200px;
+
+@media #{$media} and ($screenWidth: $value){
+  .container{
+    @include width(800px)
+  }
+  #works p{
+    width: fit-content;
+  }
+  #ourTeam .container{
+    >p{
+      width: fit-content;
+    }
+    ul{
+      flex-wrap: wrap;
+      li{
+        margin-bottom: 12px;
+      }
+    }
+  }
+  #facts nav{
+    width: 800px;
+  }
+  #discuss .container{
+    >p{
+      width: fit-content;
+    }
+    .formWrapper{
+      flex-wrap: wrap;
+      .info{
+        width: 100%;
+        text-align: center;
+        p{
+          width: 100%;
+        }
+      }
+      form{
+        width: 100%;
+      }
+      .social{
+        height: fit-content;
+        margin-top: 38px;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+  }
+  footer .container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media #{$media} and ($screenWidth: 850px){
+  .container{
+    @include width(450px)
+  }
+  header .head{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #features ul{
+    justify-content: center;
+    flex-wrap: wrap;
+    li{
+      margin-bottom: 12px;
+    }
+  }
+  #works nav{
+    width: fit-content;
+    ul{
+      flex-direction: column;
+      li{
+        margin-bottom: 12px;
+      }
+    }
+  }
+  #worksImages ul{
+    li{
+      width: 50%;
+    }
+  }
+  #ourTeam nav ul{
+    justify-content: center;
+  }
+  #facts nav{
+    width: 450px;
+    ul{
+      justify-content: space-around;
+      flex-wrap: wrap;
+      li{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media #{$media} and ($screenWidth: 470px) {
+  .container {
+    @include width(375px)
+  }
+  #worksImages ul{
+    li{
+      width: 100%;
+    }
+  }
+  #facts nav {
+    width: 375px;
+  }
+}

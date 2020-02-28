@@ -1,0 +1,116 @@
+@import "style.css";
+@media all and (max-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+
+  #works p {
+    width: fit-content;
+  }
+
+  #ourTeam .container > p {
+    width: fit-content;
+  }
+  #ourTeam .container ul {
+    flex-wrap: wrap;
+  }
+  #ourTeam .container ul li {
+    margin-bottom: 12px;
+  }
+
+  #facts nav {
+    width: 800px;
+  }
+
+  #discuss .container > p {
+    width: fit-content;
+  }
+  #discuss .container .formWrapper {
+    flex-wrap: wrap;
+  }
+  #discuss .container .formWrapper .info {
+    width: 100%;
+    text-align: center;
+  }
+  #discuss .container .formWrapper .info p {
+    width: 100%;
+  }
+  #discuss .container .formWrapper form {
+    width: 100%;
+  }
+  #discuss .container .formWrapper .social {
+    height: fit-content;
+    margin-top: 38px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 850px) {
+  .container {
+    width: 450px;
+  }
+
+  header .head {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #features ul {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #features ul li {
+    margin-bottom: 12px;
+  }
+
+  #works nav {
+    width: fit-content;
+  }
+  #works nav ul {
+    flex-direction: column;
+  }
+  #works nav ul li {
+    margin-bottom: 12px;
+  }
+
+  #worksImages ul li {
+    width: 50%;
+  }
+
+  #ourTeam nav ul {
+    justify-content: center;
+  }
+
+  #facts nav {
+    width: 450px;
+  }
+  #facts nav ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #facts nav ul li {
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 470px) {
+  .container {
+    width: 375px;
+  }
+
+  #worksImages ul li {
+    width: 100%;
+  }
+
+  #facts nav {
+    width: 375px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,90 @@
+.reflection_st {
+    opacity:0.9;
+}
+
+.st1 {
+    clip-path:url(#SVGID_2_);
+}
+
+.body_st {
+    fill: #000;
+    stroke: #333333;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    fill: #383838;
+    stroke: #333333;
+    stroke-miterlimit: 10;
+}
+
+.st4 {
+    fill: url(#SVGID_3_);
+    stroke: url(#SVGID_4_);
+    stroke-miterlimit:10;
+}
+
+.st5 {
+    fill: url(#SVGID_5_);
+    stroke: url(#SVGID_6_);
+    stroke-miterlimit: 10;
+}
+
+.st6 {
+    fill: url(#SVGID_7_);
+    stroke: url(#SVGID_8_);
+    stroke-miterlimit: 10;
+}
+
+.st8 {
+    clip-path: url(#SVGID_2_);
+    fill: url(#SVGID_9_);
+}
+
+.st9 {fill: url(#button_1_);
+    stroke: url(#button_2_);
+    stroke-miterlimit:10;
+}
+
+.st10 {
+    fill: url(#dinamic_1_);
+    stroke: url(#dinamic_2_);
+    stroke-miterlimit:10;
+}
+
+.st11 {
+    fill: url(#web_1_);
+    stroke: url(#web_2_);
+    stroke-miterlimit: 10;
+}
+
+.battery_st, .st7 {
+    fill: #ff0000;
+    stroke: #FFF;
+    stroke-width: 5px;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    stroke-linecap: butt;
+    transition: all 2s ease-out;
+}
+
+.battery_st:hover {
+    cursor: pointer;
+    fill: #90ee8f;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
+    stroke-width: 5px;
+}
+
+.battery_st:hover + .st7 {
+    cursor: pointer;
+    fill: #90ee8f;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
+    stroke-width: 5px;
+}
+
+.st13 {
+    fill: url(#SVGID_10_);
+}
